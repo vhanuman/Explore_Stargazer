@@ -16,7 +16,7 @@ define(['underscore', 'easel', 'model/BlinkText', 'model/backgrounds', 'service/
     };
 
     Logic.prototype.createObjects = function (items) {
-        var t = new BlinkText(this.render, 'Welcome, stargazer!\nReady for a challenge?\nPress space or tap!');
+        var t = new BlinkText(this.render, 'ಬಾ ಗುರು ಆಟ ಆಡು! ಧಮ್ ಇದ್ಯಾ? SPACE BAR ಒತ್ತಿ ಶುರು ಮಾಡು ಆಟ! ');
         this.background = new Backgrounds(this.render);
         _.each(this.background.objects, function (v) {
             items.push(v);
@@ -35,7 +35,7 @@ define(['underscore', 'easel', 'model/BlinkText', 'model/backgrounds', 'service/
             var ppc = new createjs.PlayPropsConfig().set({loop: -1});
             music.addChannel(createjs.Sound.play('bgmusic', ppc));
         }, (this)));
-        createjs.Sound.registerSound('build/sound/stargazer.mp3', 'bgmusic');
+        createjs.Sound.registerSound('build/sound/HodiMaga.mp3', 'bgmusic');
     };
 
     Logic.prototype.keyDown = function (e) {
