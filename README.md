@@ -8,7 +8,7 @@ stargazer
 \>\> [**Play now!**](http://vhanuman.github.io/stargazer/app) \<\<
 
 
-
+##https://vhanuman.github.io/Explore_Stargazer/
 
 ## HOW TO PLAY
 
