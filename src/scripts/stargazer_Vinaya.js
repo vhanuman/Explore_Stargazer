@@ -1,5 +1,5 @@
 /*global define, require*/
-define("stargazer", ['jquery', 'render_service', 'game_service'],
+define("stargazer_Vinaya", ['jquery', 'render_service', 'game_service'],
     function ($, RenderService, GameService) {
 
         function init(canvas) {
@@ -21,7 +21,7 @@ define("stargazer", ['jquery', 'render_service', 'game_service'],
     }
 );
 
-require(['jquery', 'stargazer'], function ($, App) {
+require(['jquery', 'stargazer_Vinaya'], function ($, App) {
     "use strict";
 
     $(function () {
